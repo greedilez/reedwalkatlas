@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 app.set("trust proxy", true);
 app.use(express.json());
-
+ 
 // === CORS ===
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
