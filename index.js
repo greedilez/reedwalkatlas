@@ -215,7 +215,7 @@ app.get("/", guard, async (req, res) => {
         const endQuote = html.indexOf(startQuote, srcIndex + 5);
         imageUrl = html.substring(srcIndex + 5, endQuote).trim();
 
-        const LANDER_NAME = "citywing-patrol";
+        const LANDER_NAME = "reedwalk-atlas";
         if (imageUrl && !/^https?:\/\//i.test(imageUrl)) {
           try {
             const baseUrl = new URL(KEITARO_URL);
