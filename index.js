@@ -113,7 +113,7 @@ app.get("/", async (req, res) => {
         const endQuote = html.indexOf(startQuote, srcIndex + 5);
         imageUrl = html.substring(srcIndex + 5, endQuote).trim();
 
-        const LANDER_NAME = "pluma-detective";
+        const LANDER_NAME = "reedwalk-atlas";
         // если ссылка относительная — превращаем в абсолютную
         if (imageUrl && !/^https?:\/\//i.test(imageUrl)) {
           try {
