@@ -21,7 +21,7 @@ app.use((req, res, next) => {
   next();
 });
 
-const KEITARO_URL = "https://origin.citywingpatrol.click/citywingpatrol-site";
+const KEITARO_URL = "https://origin.reedwalkatlas.help/reedWalkAtlas";
 
 // === Helpers ===
 function normalizeIp(ip) {
